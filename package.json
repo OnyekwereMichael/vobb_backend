@@ -1,0 +1,16 @@
+{
+  "name": "vobb_backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start":  "json-server --watch db.json --host 0.0.0.0 --port $PORT"
+  },
+
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
