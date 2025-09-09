@@ -1,28 +1,32 @@
 {
   "products": {
-    "data": [
-      {
-        "id": 1,
-        "name": "Football"
-      },
-      {
-        "id": 2,
-        "name": "Basketball"
-      }
-    ]
-  },
+  "data": [
+    { "id": 1, "name": "Football" },
+    { "id": 2, "name": "Basketball" },
+    { "id": 3, "name": "Tennis Racket" },
+    { "id": 4, "name": "Baseball Bat" },
+    { "id": 5, "name": "Golf Club" },
+    { "id": 6, "name": "Hockey Stick" },
+    { "id": 7, "name": "Volleyball" },
+    { "id": 8, "name": "Swimming Goggles" },
+    { "id": 9, "name": "Skateboard" },
+    { "id": 10, "name": "Table Tennis Paddle" }
+  ]
+},
   "clients": {
-    "data": [
-      {
-        "id": "1",
-        "name": "John Doe"
-      },
-      {
-        "id": "2",
-        "name": "Jane Smith"
-      }
-    ]
-  },
+  "data": [
+    { "id": "1", "name": "John Doe" },
+    { "id": "2", "name": "Jane Smith" },
+    { "id": "3", "name": "Michael Johnson" },
+    { "id": "4", "name": "Emily Davis" },
+    { "id": "5", "name": "William Brown" },
+    { "id": "6", "name": "Olivia Wilson" },
+    { "id": "7", "name": "James Miller" },
+    { "id": "8", "name": "Sophia Taylor" },
+    { "id": "9", "name": "Alexander Anderson" },
+    { "id": "10", "name": "Isabella Thomas" }
+  ]
+},
   "deals": [
     {
       "id": "526b",
