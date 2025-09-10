@@ -3,11 +3,13 @@
   "version": "1.0.0",
   "main": "index.js",
  "scripts": {
-  "start": "json-server db.json --host 0.0.0.0 --port $PORT"
-}
-,
+  "start": "concurrently \"json-server db.json --host 0.0.0.0 --port $PORT\" \"node cron-job.js\""
+},
   "dependencies": {
-    "json-server": "^1.0.0-beta.3"
+    "axios": "^1.11.0",
+    "concurrently": "^9.2.1",
+    "json-server": "^1.0.0-beta.3",
+    "node-cron": "^4.2.1"
   },
   "keywords": [],
   "author": "",
